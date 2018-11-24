@@ -1,6 +1,6 @@
 import requests
 #1
-responce = requests.get(url="http://hachimantai.spartacamp.jp/")
+response = requests.get(url="http://hachimantai.spartacamp.jp/")
 
 
 #2
