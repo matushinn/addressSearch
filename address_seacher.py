@@ -12,7 +12,7 @@ class AddressSeacher:
 
         response_dict = response.json()
 
-        if response_dict["results"] == None:
+        if response_dict["results"] is None:
             return "該当するデータが見つかりませんでした。検索データを変えて再検索してください。"
 
         都道府県 = response_dict["results"][0]["address1"]
